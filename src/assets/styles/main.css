@@ -1,0 +1,119 @@
+* {
+  font-family: Roboto, RobotoDraft, Arial, sans-serif;
+}
+
+.header-container {
+  width: 100%;
+  height: 63.958px;
+  display: grid;
+  grid: "blanco blanco blanco navArea";
+}
+
+.header-container div {
+  grid-area: blanco;
+}
+
+.header-nav {
+  grid-area: navArea;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-nav div {
+  padding: 16px 9px 16px 6px;
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 12.8px;
+  letter-spacing: 0.08px;
+  font-weight: 500;
+}
+.header-nav img {
+  width: 16px;
+  height: 16px;
+  padding: 16px 18px 0px 18px;
+  filter: opacity(70%);
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 550px;
+  width: 100%;
+}
+
+.main-img {
+  height: 200px;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  padding-top: 15px;
+}
+/*imagen principal "Google" */
+.main-img img {
+  height: 245px;
+  width: 370px;
+}
+
+.main-input {
+  border: none;
+  border-radius: calc(0.5 * 44px);
+  box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+  width: 550px;
+  height: 45px;
+  padding-top: 0px;
+  margin-top: 8px;
+  padding-left: 0px;
+}
+
+.input-busqueda {
+  width: 12px;
+  height: 12px;
+  padding-left: 20px;
+}
+.input-voz {
+  width: 23px;
+  height: 21px;
+  padding-left: 18px;
+  padding-top: 10px;
+}
+
+.main-input input {
+  border: none;
+  width: 420px;
+  height: 3px;
+  padding: 5px 30px 15px 6.5px;
+  margin-top: 0px;
+  margin-left: 9px;
+}
+
+.main-input input::placeholder {
+  font-size: 15px;
+  letter-spacing: 0.25px;
+  -webkit-text-stroke: 0.2px rgba(0, 0, 0, 0.9);
+}
+
+.footer-container {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 7px;
+  padding-top: 18px;
+}
+
+.footer-personalizar {
+  border: none;
+  border-radius: calc(0.5 * 32px);
+  box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 1px 2px rgb(0 0 0 / 23%);
+  font-weight: 400;
+  padding: 8px 15px;
+  color: rgb(26 115 232);
+  box-sizing: border-box;
+  width: 176.8px;
+  height: 32px;
+  font-size: 81.25%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-personalizar img {
+  margin-right: 8px;
+}
