@@ -15,8 +15,10 @@ const Content = () => {
         <div className="main-input">
           <img className="input-busqueda" src={Lupa} alt="" />
           <input
-            type="seach"
-            placeholder="Haz una búsqueda en Google o escribe una URL"
+            type="text"
+            placeholder="Buscar en Google o escribir una URL"
+            className="main-input-search"
+
           />
           <img className="input-voz" src={Busqueda} alt="" />
         </div>
