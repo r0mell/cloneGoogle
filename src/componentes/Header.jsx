@@ -9,7 +9,7 @@ const Header = () => {
         <div>Gmail</div>
         <div>Imágenes</div>
 
-        <img src={puntos} />
+        <img src={puntos} alt="menu" />
       </nav>
     </header>
   );

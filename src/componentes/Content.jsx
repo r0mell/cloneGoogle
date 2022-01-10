@@ -9,7 +9,7 @@ const Content = () => {
     <main>
       <div className="main-container">
         <div className="main-img">
-          <img src={Google}></img>
+          <img src={Google} alt="google"></img>
         </div>
 
         <div className="main-input">
